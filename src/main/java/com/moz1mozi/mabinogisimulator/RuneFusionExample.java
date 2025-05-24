@@ -15,15 +15,16 @@ public class RuneFusionExample {
         System.out.println("1: 무기, 2: 방어구, 3: 장신구, 4: 엠블렘: ");
         Scanner scanner = new Scanner(new InputStreamReader(System.in));
         String string = scanner.nextLine();
-        RuneType runeType = getRuneType(string);
         System.out.println("1: 고급, 2: 레어, 3: 레어, 4: 엘리트, 5: 에픽");
         System.out.print("강화할 아이템의 희귀도를 입력해주세요: ");
         scanner = new Scanner(new InputStreamReader(System.in));
         string = scanner.nextLine();
-        RuneRarity rarity = getRarity(string);
+
 
 
         // 무기 룬 레어 등급 합성 시도
+        RuneType runeType = getRuneType(string);
+        RuneRarity rarity = getRarity(string);
         FusionResult result = fusionService.attemptFusion(runeType, rarity);
         System.out.println(result);
 

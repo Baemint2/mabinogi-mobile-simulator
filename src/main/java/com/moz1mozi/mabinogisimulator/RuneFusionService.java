@@ -3,10 +3,12 @@ package com.moz1mozi.mabinogisimulator;
 import com.moz1mozi.mabinogisimulator.rune.RuneRarity;
 import com.moz1mozi.mabinogisimulator.rune.RuneType;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Service;
 
 import java.util.Random;
 
 @Slf4j
+@Service
 public class RuneFusionService {
     private static final Random random = new Random();
 
