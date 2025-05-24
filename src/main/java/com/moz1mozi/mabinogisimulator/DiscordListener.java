@@ -128,18 +128,19 @@ public class DiscordListener extends ListenerAdapter {
             log.info("useCatalyst: {}", useCatalyst);
             FusionResult result = runeFusionService.attemptFusion(runeType, rarity, useCatalyst);
 
-            String baseString = runeType.getDisplayName() + "의 " + rarity.getDisplayName();
+            String baseString = runeType.getDisplayName() + " " + rarity.getDisplayName();
             String initialMessage;
 
             if (result.isSuccess() || !useCatalyst) {
                 // 성공했거나 촉매제를 사용하지 않은 경우 - 바로 결과 표시
-                initialMessage = baseString + " 강화 결과\n\n";
+                initialMessage = baseString + " 합성 결과\n\n";
                 if (useCatalyst) {
                     initialMessage += "🧪 촉매제를 사용했습니다!\n\n";
                 }
                 initialMessage += result.toString();
 
-                event.editMessage(initialMessage).setComponents(Collections.emptyList()).queue();
+                event.editMessage(initialMessage).setComponents(Collections.emptyList())
+                        .queueAfter(2, TimeUnit.SECONDS);
                 log.info("합성 결과: {}", result);
             } else {
                 // 실패했고 촉매제를 사용한 경우 - 단계별 메시지 표시
@@ -150,10 +151,10 @@ public class DiscordListener extends ListenerAdapter {
                     // 2. 지연 후 재시도 메시지
                     // 재시도 로직 실행 (재시도 로직은 별도 메서드로 구현)
                     log.info("[재시도]: runType: {}, rarity: {}", runeType, rarity);
-                    FusionResult retryResult = runeFusionService.attemptFusionRetry(runeType, rarity, useCatalyst);
+                    FusionResult retryResult = runeFusionService.attemptFusionRetry(runeType, rarity);
 
                     // 최종 결과 메시지
-                    String finalMessage = baseString + " 강화 결과\n\n";
+                    String finalMessage = baseString + " 합성 결과\n\n";
                     finalMessage += "🧪 촉매제를 사용했습니다! (재시도 수행)\n\n";
                     finalMessage += retryResult.toString();
 

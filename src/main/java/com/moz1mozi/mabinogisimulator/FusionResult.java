@@ -36,7 +36,7 @@ public class FusionResult {
             return "합성 성공! " + type.getDisplayName() + " " + rarity.getDisplayName() + " 룬 획득: " + runeName;
 
         } else {
-            return "합성 실패... " + rarity.getDisplayName() + " 등급 합성에 실패했습니다.";
+            return rarity.getDisplayName() + " 등급 합성에 실패했습니다.";
         }
     }
 }
