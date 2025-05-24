@@ -1,6 +1,10 @@
 package com.moz1mozi.mabinogisimulator.rune;
 
 import lombok.Getter;
+import net.dv8tion.jda.api.interactions.components.buttons.ButtonStyle;
+
+import java.util.List;
+import java.util.Map;
 
 @Getter
 public enum RuneRarity {
@@ -32,4 +36,23 @@ public enum RuneRarity {
             default -> this;
         };
     }
+
+    // RuneRarity와 ButtonStyle 매핑
+    public static final Map<RuneRarity, ButtonStyle> RARITY_STYLES = Map.of(
+            RuneRarity.ADVANCED, ButtonStyle.SECONDARY,
+            RuneRarity.RARE_I, ButtonStyle.PRIMARY,
+            RuneRarity.RARE_II, ButtonStyle.PRIMARY,
+            RuneRarity.ELITE, ButtonStyle.SUCCESS,
+            RuneRarity.EPIC, ButtonStyle.DANGER
+    );
+
+    // 사용할 희귀도 목록 (순서 유지를 위해 List 사용)
+    public static final List<RuneRarity> AVAILABLE_RARITIES = List.of(
+            RuneRarity.ADVANCED,
+            RuneRarity.RARE_I,
+            RuneRarity.RARE_II,
+            RuneRarity.ELITE,
+            RuneRarity.EPIC
+    );
+
 }
