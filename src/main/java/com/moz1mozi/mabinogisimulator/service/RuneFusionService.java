@@ -1,5 +1,7 @@
-package com.moz1mozi.mabinogisimulator;
+package com.moz1mozi.mabinogisimulator.service;
 
+import com.moz1mozi.mabinogisimulator.FusionResult;
+import com.moz1mozi.mabinogisimulator.RuneSelector;
 import com.moz1mozi.mabinogisimulator.rune.RuneRarity;
 import com.moz1mozi.mabinogisimulator.rune.RuneType;
 import lombok.extern.slf4j.Slf4j;

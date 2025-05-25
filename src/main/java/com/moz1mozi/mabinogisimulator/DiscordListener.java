@@ -1,7 +1,10 @@
 package com.moz1mozi.mabinogisimulator;
 
+import com.moz1mozi.mabinogisimulator.rune.RuneItem;
 import com.moz1mozi.mabinogisimulator.rune.RuneRarity;
 import com.moz1mozi.mabinogisimulator.rune.RuneType;
+import com.moz1mozi.mabinogisimulator.service.JsonParsingService;
+import com.moz1mozi.mabinogisimulator.service.RuneFusionService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import net.dv8tion.jda.api.entities.Message;
@@ -10,9 +13,9 @@ import net.dv8tion.jda.api.events.interaction.component.ButtonInteractionEvent;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import net.dv8tion.jda.api.interactions.components.buttons.Button;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -30,18 +33,15 @@ public class DiscordListener extends ListenerAdapter {
 
 
     private final RuneFusionService runeFusionService;
-    @Value("${discord.channel}")
-    String channelId;
+    private final JsonParsingService jsonParsingService;
 
     private final Map<String, String> messageOwners = new ConcurrentHashMap<>();
-
 
     @Override
     public void onMessageReceived(MessageReceivedEvent event) {
 
-        if (event.getAuthor().isBot() || !event.getChannel().getId().equals(channelId)) {
+        if (event.getAuthor().isBot()) {
             log.info("event.getAuthor().isBot() : {}", event.getAuthor().isBot());
-            log.info("event.getChannel().getId() : {}", event.getChannel().getId().equals(channelId));
             return;
         }
 
@@ -62,6 +62,8 @@ public class DiscordListener extends ListenerAdapter {
                     .queue(sentMessage -> messageOwners.put(sentMessage.getId(), username));
 
             log.info("버튼을 생성한 유저: {}", username);
+        } else if (content.equals("항아리")) {
+            event.getChannel().sendMessage("추가 예정입니다.").queue();
         }
     }
 
@@ -125,7 +127,6 @@ public class DiscordListener extends ListenerAdapter {
 
             log.info("촉매제 선택: {}, 룬 타입: {}, 희귀도: {}", useCatalyst ? "사용" : "미사용", runeType, rarity);
 
-            log.info("useCatalyst: {}", useCatalyst);
             FusionResult result = runeFusionService.attemptFusion(runeType, rarity, useCatalyst);
 
             String baseString = runeType.getDisplayName() + " " + rarity.getDisplayName();
@@ -134,13 +135,9 @@ public class DiscordListener extends ListenerAdapter {
             if (result.isSuccess() || !useCatalyst) {
                 // 성공했거나 촉매제를 사용하지 않은 경우 - 바로 결과 표시
                 initialMessage = baseString + " 합성 결과\n\n";
-                if (useCatalyst) {
-                    initialMessage += "🧪 촉매제를 사용했습니다!\n\n";
-                }
                 initialMessage += result.toString();
 
-                event.editMessage(initialMessage).setComponents(Collections.emptyList())
-                        .queueAfter(2, TimeUnit.SECONDS);
+                event.editMessage(initialMessage).setComponents(Collections.emptyList()).queue();
                 log.info("합성 결과: {}", result);
             } else {
                 // 실패했고 촉매제를 사용한 경우 - 단계별 메시지 표시

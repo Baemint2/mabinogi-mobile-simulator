@@ -14,6 +14,8 @@ import java.util.List;
 import java.util.Random;
 
 public class RuneSelector {
+    private RuneSelector() {}
+
     public static final Random random = new Random();
 
     /**
