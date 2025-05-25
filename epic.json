@@ -1,0 +1,397 @@
+[
+    {
+        "id": "THRILL",
+        "name": "전율",
+        "probability": 0.042798
+    },
+    {
+        "id": "LETHALITY",
+        "name": "극독",
+        "probability": 0.042798
+    },
+    {
+        "id": "STEEL",
+        "name": "강철",
+        "probability": 0.042798
+    },
+    {
+        "id": "WONDER",
+        "name": "경이",
+        "probability": 0.042798
+    },
+    {
+        "id": "WHIRLWIND",
+        "name": "질풍",
+        "probability": 0.042798
+    },
+    {
+        "id": "DUEL",
+        "name": "결투",
+        "probability": 0.042798
+    },
+    {
+        "id": "PLAGUE",
+        "name": "역병",
+        "probability": 0.042798
+    },
+    {
+        "id": "CLASH",
+        "name": "격전",
+        "probability": 0.042798
+    },
+    {
+        "id": "ULTIMATUM",
+        "name": "궁극",
+        "probability": 0.042798
+    },
+    {
+        "id": "RAGE",
+        "name": "격노",
+        "probability": 0.042798
+    },
+    {
+        "id": "JUDGMENT",
+        "name": "선고",
+        "probability": 0.042798
+    },
+    {
+        "id": "ASSAULT",
+        "name": "연격",
+        "probability": 0.042798
+    },
+    {
+        "id": "EXTREME_COLD",
+        "name": "혹한",
+        "probability": 0.042798
+    },
+    {
+        "id": "AGONY",
+        "name": "고통",
+        "probability": 0.042798
+    },
+    {
+        "id": "HEMORRHAGE",
+        "name": "적혈",
+        "probability": 0.042798
+    },
+    {
+        "id": "FLAME",
+        "name": "화염",
+        "probability": 0.042798
+    },
+    {
+        "id": "STORM",
+        "name": "폭풍",
+        "probability": 0.042798
+    },
+    {
+        "id": "SUPERNATURAL",
+        "name": "초자연",
+        "probability": 0.042798
+    },
+    {
+        "id": "STABILITY",
+        "name": "안정",
+        "probability": 0.042798
+    },
+    {
+        "id": "INITIAL",
+        "name": "초기",
+        "probability": 0.042798
+    },
+    {
+        "id": "CASTLE",
+        "name": "성채",
+        "probability": 0.042798
+    },
+    {
+        "id": "PROTECTION",
+        "name": "방호",
+        "probability": 0.042798
+    },
+    {
+        "id": "SNIPE",
+        "name": "저격",
+        "probability": 0.042798
+    },
+    {
+        "id": "OUTBREAK",
+        "name": "발진",
+        "probability": 0.042798
+    },
+    {
+        "id": "DEFICIENCY",
+        "name": "결핍",
+        "probability": 0.042798
+    },
+    {
+        "id": "MELEE",
+        "name": "난투",
+        "probability": 0.042798
+    },
+    {
+        "id": "LIFE",
+        "name": "생명",
+        "probability": 0.042798
+    },
+    {
+        "id": "WEAKNESS",
+        "name": "쇠약",
+        "probability": 0.042798
+    },
+    {
+        "id": "FREEZING",
+        "name": "얼어붙음",
+        "probability": 0.042798
+    },
+    {
+        "id": "BLOODSUCKING",
+        "name": "흡혈",
+        "probability": 0.042798
+    },
+    {
+        "id": "AGONY",
+        "name": "격통",
+        "probability": 0.042798
+    },
+    {
+        "id": "SACRIFICE",
+        "name": "제물",
+        "probability": 0.042798
+    },
+    {
+        "id": "EROSION",
+        "name": "침식",
+        "probability": 0.042798
+    },
+    {
+        "id": "PERSEVERANCE",
+        "name": "끈기",
+        "probability": 0.042798
+    },
+    {
+        "id": "OVERWHELMING",
+        "name": "압도",
+        "probability": 0.042798
+    },
+    {
+        "id": "DESPAIR",
+        "name": "절망",
+        "probability": 0.042798
+    },
+    {
+        "id": "THREAT",
+        "name": "위협",
+        "probability": 0.042798
+    },
+    {
+        "id": "TACTICIAN",
+        "name": "전술가",
+        "probability": 0.042798
+    },
+    {
+        "id": "AMBUSH",
+        "name": "기습",
+        "probability": 0.042798
+    },
+    {
+        "id": "MIGHTY_STRIKE",
+        "name": "맹공",
+        "probability": 0.042798
+    },
+    {
+        "id": "ASSAULT",
+        "name": "돌격",
+        "probability": 0.042798
+    },
+    {
+        "id": "PENETRATION",
+        "name": "관통",
+        "probability": 0.042798
+    },
+    {
+        "id": "FALLING_FLOWERS",
+        "name": "낙화",
+        "probability": 0.042798
+    },
+    {
+        "id": "COUNTERATTACK",
+        "name": "반격",
+        "probability": 0.042798
+    },
+    {
+        "id": "RESILIENCE",
+        "name": "탄력",
+        "probability": 0.042798
+    },
+    {
+        "id": "FATAL",
+        "name": "치명적",
+        "probability": 0.042798
+    },
+    {
+        "id": "EAGLE",
+        "name": "매",
+        "probability": 0.042798
+    },
+    {
+        "id": "GUNPOWDER",
+        "name": "화약",
+        "probability": 0.042798
+    },
+    {
+        "id": "CHAIN",
+        "name": "연쇄",
+        "probability": 0.042798
+    },
+    {
+        "id": "ULTRASONIC",
+        "name": "초음파",
+        "probability": 0.042798
+    },
+    {
+        "id": "CONCENTRATION",
+        "name": "집중",
+        "probability": 0.042798
+    },
+    {
+        "id": "METEOR",
+        "name": "운석",
+        "probability": 0.042798
+    },
+    {
+        "id": "FROST_THORN",
+        "name": "서리가시",
+        "probability": 0.042798
+    },
+    {
+        "id": "ICE_SWORD",
+        "name": "빙검",
+        "probability": 0.042798
+    },
+    {
+        "id": "AURORA",
+        "name": "오로라",
+        "probability": 0.042798
+    },
+    {
+        "id": "EMBERS",
+        "name": "불씨",
+        "probability": 0.042798
+    },
+    {
+        "id": "ASHES",
+        "name": "잿더미",
+        "probability": 0.042798
+    },
+    {
+        "id": "SUPPRESSION",
+        "name": "억압",
+        "probability": 0.042798
+    },
+    {
+        "id": "GLARE",
+        "name": "빛무리",
+        "probability": 0.042798
+    },
+    {
+        "id": "WINGS",
+        "name": "날개",
+        "probability": 0.042798
+    },
+    {
+        "id": "RAY_OF_LIGHT",
+        "name": "빛줄기",
+        "probability": 0.042798
+    },
+    {
+        "id": "RETRIBUTION",
+        "name": "응보",
+        "probability": 0.042798
+    },
+    {
+        "id": "FLAME_UP",
+        "name": "업화",
+        "probability": 0.042798
+    },
+    {
+        "id": "MOCKERY",
+        "name": "조롱",
+        "probability": 0.042798
+    },
+    {
+        "id": "HARMONY",
+        "name": "화음",
+        "probability": 0.042798
+    },
+    {
+        "id": "MENACE",
+        "name": "흉성",
+        "probability": 0.042798
+    },
+    {
+        "id": "FINALE",
+        "name": "종장",
+        "probability": 0.042798
+    },
+    {
+        "id": "BUTTERFLY",
+        "name": "나비",
+        "probability": 0.042798
+    },
+    {
+        "id": "SWING",
+        "name": "갈채",
+        "probability": 0.042798
+    },
+    {
+        "id": "TOXIC_DANCE",
+        "name": "독무",
+        "probability": 0.042798
+    },
+    {
+        "id": "GROUND_SPIDER",
+        "name": "땅거미",
+        "probability": 0.042798
+    },
+    {
+        "id": "COLLISION",
+        "name": "충돌",
+        "probability": 0.042798
+    },
+    {
+        "id": "DEFEAT",
+        "name": "격파",
+        "probability": 0.042798
+    },
+    {
+        "id": "WHIRL",
+        "name": "회오리",
+        "probability": 0.042798
+    },
+    {
+        "id": "SPRINT",
+        "name": "질주",
+        "probability": 0.042798
+    },
+    {
+        "id": "SWIFTNESS",
+        "name": "날쌤",
+        "probability": 0.042798
+    },
+    {
+        "id": "INTENSITY",
+        "name": "강렬함",
+        "probability": 0.042798
+    },
+    {
+        "id": "FEROCITY",
+        "name": "광폭함",
+        "probability": 0.042798
+    },
+    {
+        "id": "TENACITY",
+        "name": "굳건함",
+        "probability": 0.042798
+    }
+]

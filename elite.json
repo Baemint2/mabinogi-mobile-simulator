@@ -1,0 +1,542 @@
+[
+    {
+        "id": "DISPERSAL",
+        "name": "확산",
+        "probability": 0.166435
+    },
+    {
+        "id": "VENOM",
+        "name": "맹독",
+        "probability": 0.166435
+    },
+    {
+        "id": "BLOODLINE",
+        "name": "선혈",
+        "probability": 0.166435
+    },
+    {
+        "id": "CONSCIOUSNESS",
+        "name": "의식",
+        "probability": 0.166435
+    },
+    {
+        "id": "IRON",
+        "name": "철",
+        "probability": 0.166435
+    },
+    {
+        "id": "SCOURGE",
+        "name": "삭풍",
+        "probability": 0.166435
+    },
+    {
+        "id": "CONFRONTATION",
+        "name": "대결",
+        "probability": 0.166435
+    },
+    {
+        "id": "BATTLEFIELD",
+        "name": "전장",
+        "probability": 0.166435
+    },
+    {
+        "id": "RUSHING",
+        "name": "격류",
+        "probability": 0.166435
+    },
+    {
+        "id": "PECULIARITY",
+        "name": "기묘",
+        "probability": 0.166435
+    },
+    {
+        "id": "ASSURANCE",
+        "name": "안심",
+        "probability": 0.166435
+    },
+    {
+        "id": "SURVIVAL",
+        "name": "사활",
+        "probability": 0.166435
+    },
+    {
+        "id": "INITIATION",
+        "name": "시작",
+        "probability": 0.166435
+    },
+    {
+        "id": "WALL",
+        "name": "장벽",
+        "probability": 0.166435
+    },
+    {
+        "id": "VIGILANCE",
+        "name": "경계",
+        "probability": 0.166435
+    },
+    {
+        "id": "DEFENSE",
+        "name": "수비",
+        "probability": 0.166435
+    },
+    {
+        "id": "SHOOTING",
+        "name": "사격",
+        "probability": 0.166435
+    },
+    {
+        "id": "RAMPAGE",
+        "name": "폭주",
+        "probability": 0.166435
+    },
+    {
+        "id": "STARVATION",
+        "name": "굶주림",
+        "probability": 0.166435
+    },
+    {
+        "id": "STRUGGLE",
+        "name": "투쟁",
+        "probability": 0.166435
+    },
+    {
+        "id": "REHABILITATION",
+        "name": "재활",
+        "probability": 0.166435
+    },
+    {
+        "id": "DETERIORATION",
+        "name": "악화",
+        "probability": 0.166435
+    },
+    {
+        "id": "ABSORPTION",
+        "name": "흡수",
+        "probability": 0.166435
+    },
+    {
+        "id": "OVERCOMING",
+        "name": "극복",
+        "probability": 0.166435
+    },
+    {
+        "id": "CHARGE",
+        "name": "참격",
+        "probability": 0.166435
+    },
+    {
+        "id": "RUSH",
+        "name": "돌진",
+        "probability": 0.166435
+    },
+    {
+        "id": "ROAR",
+        "name": "포효",
+        "probability": 0.166435
+    },
+    {
+        "id": "DETERMINATION",
+        "name": "패기",
+        "probability": 0.166435
+    },
+    {
+        "id": "PRESSURE",
+        "name": "압박",
+        "probability": 0.166435
+    },
+    {
+        "id": "FIGHT",
+        "name": "무희",
+        "probability": 0.166435
+    },
+    {
+        "id": "FEROCITY",
+        "name": "맹렬",
+        "probability": 0.166435
+    },
+    {
+        "id": "BLOOD_GALE",
+        "name": "피바람",
+        "probability": 0.166435
+    },
+    {
+        "id": "ROTATION",
+        "name": "회전",
+        "probability": 0.166435
+    },
+    {
+        "id": "ANGER",
+        "name": "분노",
+        "probability": 0.166435
+    },
+    {
+        "id": "DETERMINATION_GS",
+        "name": "회심",
+        "probability": 0.166435
+    },
+    {
+        "id": "CUT",
+        "name": "절단",
+        "probability": 0.166435
+    },
+    {
+        "id": "CHARGE_ARCHER",
+        "name": "몰아침",
+        "probability": 0.166435
+    },
+    {
+        "id": "AGILITY",
+        "name": "날렵함",
+        "probability": 0.166435
+    },
+    {
+        "id": "ESCAPE",
+        "name": "탈출",
+        "probability": 0.166435
+    },
+    {
+        "id": "QUICK",
+        "name": "재빠름",
+        "probability": 0.166435
+    },
+    {
+        "id": "ELECTROCUTION",
+        "name": "감전",
+        "probability": 0.166435
+    },
+    {
+        "id": "DISTURBANCE",
+        "name": "방해",
+        "probability": 0.166435
+    },
+    {
+        "id": "CURRENT",
+        "name": "전류",
+        "probability": 0.166435
+    },
+    {
+        "id": "REVERSAL",
+        "name": "반전",
+        "probability": 0.166435
+    },
+    {
+        "id": "CRUSH",
+        "name": "파쇄",
+        "probability": 0.166435
+    },
+    {
+        "id": "TENACITY",
+        "name": "끈질김",
+        "probability": 0.166435
+    },
+    {
+        "id": "COLLAPSE",
+        "name": "무너짐",
+        "probability": 0.166435
+    },
+    {
+        "id": "INJURY",
+        "name": "내상",
+        "probability": 0.166435
+    },
+    {
+        "id": "THUNDER",
+        "name": "낙뢰",
+        "probability": 0.166435
+    },
+    {
+        "id": "LANDSLIDE",
+        "name": "산사태",
+        "probability": 0.166435
+    },
+    {
+        "id": "FLASHING",
+        "name": "깜빡임",
+        "probability": 0.166435
+    },
+    {
+        "id": "AMPLIFICATION",
+        "name": "증폭",
+        "probability": 0.166435
+    },
+    {
+        "id": "ARCTIC_WIND",
+        "name": "북풍",
+        "probability": 0.166435
+    },
+    {
+        "id": "FROST",
+        "name": "고드름",
+        "probability": 0.166435
+    },
+    {
+        "id": "WINTER",
+        "name": "겨울",
+        "probability": 0.166435
+    },
+    {
+        "id": "FRAGMENT",
+        "name": "파편",
+        "probability": 0.166435
+    },
+    {
+        "id": "VOLCANO",
+        "name": "불기둥",
+        "probability": 0.166435
+    },
+    {
+        "id": "FIREPOWER",
+        "name": "화력",
+        "probability": 0.166435
+    },
+    {
+        "id": "ERUPTION",
+        "name": "분출",
+        "probability": 0.166435
+    },
+    {
+        "id": "HEATWAVE",
+        "name": "열풍",
+        "probability": 0.166435
+    },
+    {
+        "id": "VOW",
+        "name": "서약",
+        "probability": 0.166435
+    },
+    {
+        "id": "TREMOR",
+        "name": "고동침",
+        "probability": 0.166435
+    },
+    {
+        "id": "ENCLOSURE",
+        "name": "감쌈",
+        "probability": 0.166435
+    },
+    {
+        "id": "WAVE",
+        "name": "물결",
+        "probability": 0.166435
+    },
+    {
+        "id": "BOND",
+        "name": "결속",
+        "probability": 0.166435
+    },
+    {
+        "id": "CARTWHEEL",
+        "name": "수레바퀴",
+        "probability": 0.166435
+    },
+    {
+        "id": "SACRIFICE",
+        "name": "희생",
+        "probability": 0.166435
+    },
+    {
+        "id": "HOLY_WAR",
+        "name": "성전",
+        "probability": 0.166435
+    },
+    {
+        "id": "KARMA",
+        "name": "인과",
+        "probability": 0.166435
+    },
+    {
+        "id": "PURIFICATION",
+        "name": "정화",
+        "probability": 0.166435
+    },
+    {
+        "id": "RADIANCE",
+        "name": "광휘",
+        "probability": 0.166435
+    },
+    {
+        "id": "CONSECRATION",
+        "name": "축성",
+        "probability": 0.166435
+    },
+    {
+        "id": "ASSAULT",
+        "name": "급습",
+        "probability": 0.166435
+    },
+    {
+        "id": "IMPROMPTU",
+        "name": "즉흥",
+        "probability": 0.166435
+    },
+    {
+        "id": "DECEPTION",
+        "name": "기만",
+        "probability": 0.166435
+    },
+    {
+        "id": "WIT",
+        "name": "재치",
+        "probability": 0.166435
+    },
+    {
+        "id": "RESONANCE",
+        "name": "공명",
+        "probability": 0.166435
+    },
+    {
+        "id": "AFFECTION",
+        "name": "박애",
+        "probability": 0.166435
+    },
+    {
+        "id": "DOUBLE_NOTE",
+        "name": "이중주",
+        "probability": 0.166435
+    },
+    {
+        "id": "PULSE",
+        "name": "속주",
+        "probability": 0.166435
+    },
+    {
+        "id": "PASSION",
+        "name": "정열",
+        "probability": 0.166435
+    },
+    {
+        "id": "APPROACH",
+        "name": "다가옴",
+        "probability": 0.166435
+    },
+    {
+        "id": "FRESHNESS",
+        "name": "산뜻함",
+        "probability": 0.166435
+    },
+    {
+        "id": "CONCISENESS",
+        "name": "간결함",
+        "probability": 0.166435
+    },
+    {
+        "id": "THROWING",
+        "name": "투척",
+        "probability": 0.166435
+    },
+    {
+        "id": "SLYNESS",
+        "name": "교활함",
+        "probability": 0.166435
+    },
+    {
+        "id": "INGENUITY",
+        "name": "치밀함",
+        "probability": 0.166435
+    },
+    {
+        "id": "TOXICITY",
+        "name": "독성",
+        "probability": 0.166435
+    },
+    {
+        "id": "LEAP",
+        "name": "도약",
+        "probability": 0.166435
+    },
+    {
+        "id": "AGILITY_FIGHTER",
+        "name": "순발력",
+        "probability": 0.166435
+    },
+    {
+        "id": "PASSION_FIGHTER",
+        "name": "열혈",
+        "probability": 0.166435
+    },
+    {
+        "id": "ADVANCE",
+        "name": "전진",
+        "probability": 0.166435
+    },
+    {
+        "id": "COLLISION",
+        "name": "충돌",
+        "probability": 0.166435
+    },
+    {
+        "id": "DEFEAT",
+        "name": "격파",
+        "probability": 0.166435
+    },
+    {
+        "id": "BURN",
+        "name": "열상",
+        "probability": 0.166435
+    },
+    {
+        "id": "FULL_MOON",
+        "name": "보름달",
+        "probability": 0.166435
+    },
+    {
+        "id": "EXPEDITIOUS",
+        "name": "속행",
+        "probability": 0.166435
+    },
+    {
+        "id": "REINFORCEMENT",
+        "name": "강화",
+        "probability": 0.166435
+    },
+    {
+        "id": "WHIRLWIND",
+        "name": "회오리",
+        "probability": 0.166435
+    },
+    {
+        "id": "CHARGE_DUAL",
+        "name": "질주",
+        "probability": 0.166435
+    },
+    {
+        "id": "EMBLEM_AGILITY",
+        "name": "기민함",
+        "probability": 0.166435
+    },
+    {
+        "id": "POWER",
+        "name": "강력함",
+        "probability": 0.166435
+    },
+    {
+        "id": "EMBLEM_FEROCITY",
+        "name": "난폭함",
+        "probability": 0.166435
+    },
+    {
+        "id": "STRENGTH",
+        "name": "강인함",
+        "probability": 0.166435
+    },
+    {
+        "id": "LOST_MOONSCAPE_BOOTS",
+        "name": "로스트 문스케이프 부츠",
+        "probability": 0.048822
+    },
+    {
+        "id": "LOST_MOONSCAPE_ROBE",
+        "name": "로스트 문스케이프 예복",
+        "probability": 0.048822
+    },
+    {
+        "id": "LOST_MOONSCAPE_GLOVES",
+        "name": "로스트 문스케이프 글러브",
+        "probability": 0.048822
+    },
+    {
+        "id": "LOST_MOONSCAPE_HAT",
+        "name": "로스트 문스케이프 햇",
+        "probability": 0.048822
+    }
+]
