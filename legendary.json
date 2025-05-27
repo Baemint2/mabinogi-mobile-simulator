@@ -1,852 +1,882 @@
 [
-      {
-        "id": "CRUEL_WINTER",
-        "name": "냉혹한 겨울",
-        "probability": 0.015623
-      },
-      {
-        "id": "COUNTLESS_FERMENTATIONS",
-        "name": "무수한 담금질",
-        "probability": 0.015623
-      },
-      {
-        "id": "LIVING_WILDFIRE",
-        "name": "살아있는 번갯불",
-        "probability": 0.015623
-      },
-      {
-        "id": "THORN_VINES",
-        "name": "가시 덩굴",
-        "probability": 0.015623
-      },
-      {
-        "id": "BURNING_EMBER",
-        "name": "타오르는 불씨",
-        "probability": 0.015623
-      },
-      {
-        "id": "RISING_MIST",
-        "name": "차오르는 안개",
-        "probability": 0.015623
-      },
-      {
-        "id": "RAGING_WIND",
-        "name": "몰아치는 바람",
-        "probability": 0.015623
-      },
-      {
-        "id": "THOUSAND_FOLD_SWORD",
-        "name": "천 자루 검",
-        "probability": 0.015623
-      },
-      {
-        "id": "ANCIENT_GLADIATOR",
-        "name": "옛 검투사",
-        "probability": 0.015623
-      },
-      {
-        "id": "HARMONY",
-        "name": "조화",
-        "probability": 0.004775
-      },
-      {
-        "id": "LIGHT_AND_SHADOW",
-        "name": "명암",
-        "probability": 0.004775
-      },
-      {
-        "id": "SUFFERING",
-        "name": "고뇌",
-        "probability": 0.004775
-      },
-      {
-        "id": "ENHANCED_DUEL",
-        "name": "결투+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_WHIRLWIND",
-        "name": "질풍+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_WONDER",
-        "name": "경이+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_CLASH",
-        "name": "격전+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_PLAGUE",
-        "name": "역병+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_RAGE",
-        "name": "격노+",
-        "probability": 0.015623
-      },
-      {
-        "id": "RUPTURE",
-        "name": "파열",
-        "probability": 0.004775
-      },
-      {
-        "id": "BLIND_FURY",
-        "name": "눈 먼 분노",
-        "probability": 0.015623
-      },
-      {
-        "id": "SOUL_HARVESTER",
-        "name": "영혼 수확자",
-        "probability": 0.015623
-      },
-      {
-        "id": "FROZEN_FLAMES",
-        "name": "얼어붙은 불꽃",
-        "probability": 0.015623
-      },
-      {
-        "id": "BLADE_BASTION",
-        "name": "칼날 보루",
-        "probability": 0.015623
-      },
-      {
-        "id": "CONDENSED_MAGIC",
-        "name": "응축된 마력",
-        "probability": 0.015623
-      },
-      {
-        "id": "SILENT_WIND",
-        "name": "고요한 바람",
-        "probability": 0.015623
-      },
-      {
-        "id": "HOLY_LAMB",
-        "name": "신셩한 수양",
-        "probability": 0.015623
-      },
-      {
-        "id": "THRILLING_BALLAD",
-        "name": "전율하는 악상",
-        "probability": 0.015623
-      },
-      {
-        "id": "RUTHLESS_GAMBLER",
-        "name": "비정한 승부사",
-        "probability": 0.015623
-      },
-      {
-        "id": "FIERCE_DOWNPOUR",
-        "name": "거센 소나기",
-        "probability": 0.015623
-      },
-      {
-        "id": "CRIMSON_PLEDGE",
-        "name": "붉은 맹약",
-        "probability": 0.015623
-      },
-      {
-        "id": "BLACK_VOW",
-        "name": "검은 서약",
-        "probability": 0.015623
-      },
-      {
-        "id": "SURVIVAL_INSTINCT",
-        "name": "생존 본능",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENDLESS_VITALITY",
-        "name": "끝없는 활력",
-        "probability": 0.015623
-      },
-      {
-        "id": "ELEMENTAL_SORCERER",
-        "name": "원소술사",
-        "probability": 0.004775
-      },
-      {
-        "id": "EXTREME_NIGHT",
-        "name": "극야",
-        "probability": 0.004775
-      },
-      {
-        "id": "ENLIGHTENMENT",
-        "name": "깨달음",
-        "probability": 0.004775
-      },
-      {
-        "id": "TORCH",
-        "name": "횃불",
-        "probability": 0.004775
-      },
-      {
-        "id": "SHATTER",
-        "name": "쇄빙",
-        "probability": 0.004775
-      },
-      {
-        "id": "COUNTERACTION",
-        "name": "반작용",
-        "probability": 0.004775
-      },
-      {
-        "id": "ENHANCED_STORM",
-        "name": "폭풍+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_BLOODSUCKING",
-        "name": "흡혈+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_SACRIFICE",
-        "name": "제물+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_EROSION",
-        "name": "침식+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_FREEZING",
-        "name": "얼어붙음+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_AGONY",
-        "name": "격통+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_WEAKNESS",
-        "name": "쇠약+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_STABILITY",
-        "name": "안정+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_SNIPE",
-        "name": "저격+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_PROTECTION",
-        "name": "방호+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_INITIAL",
-        "name": "초기+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_SUPERNATURAL",
-        "name": "초자연+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_LIFE",
-        "name": "생명+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_CASTLE",
-        "name": "성채+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_MELEE",
-        "name": "난투+",
-        "probability": 0.015623
-      },
-      {
-        "id": "BLACK_FLAMES",
-        "name": "검은 불길",
-        "probability": 0.015623
-      },
-      {
-        "id": "MANA_SURGE",
-        "name": "마나 격류",
-        "probability": 0.015623
-      },
-      {
-        "id": "WINNING_STREAK",
-        "name": "연승",
-        "probability": 0.004775
-      },
-      {
-        "id": "OVERCHARGE",
-        "name": "과충전",
-        "probability": 0.004775
-      },
-      {
-        "id": "TOXIC_MIST",
-        "name": "독 안개",
-        "probability": 0.015623
-      },
-      {
-        "id": "ROCK_GIANT",
-        "name": "바위 거인",
-        "probability": 0.015623
-      },
-      {
-        "id": "VICIOUS_BLOW",
-        "name": "비열한 일격",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_TENACITY",
-        "name": "굳건함+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_SWIFTNESS",
-        "name": "날쌤+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_INTENSITY",
-        "name": "강렬함+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ENHANCED_FEROCITY",
-        "name": "광폭함+",
-        "probability": 0.015623
-      },
-      {
-        "id": "BRILLIANCE",
-        "name": "현란함",
-        "probability": 0.004775
-      },
-      {
-        "id": "WISDOM",
-        "name": "지혜로움",
-        "probability": 0.004775
-      },
-      {
-        "id": "CRUELTY",
-        "name": "냉혹함",
-        "probability": 0.004775
-      },
-      {
-        "id": "CHARGE_PLUS",
-        "name": "참격+",
-        "probability": 0.004775
-      },
-      {
-        "id": "RUSH_PLUS",
-        "name": "돌진+",
-        "probability": 0.004775
-      },
-      {
-        "id": "ROAR_PLUS",
-        "name": "포효+",
-        "probability": 0.004775
-      },
-      {
-        "id": "DETERMINATION_PLUS",
-        "name": "패기+",
-        "probability": 0.004775
-      },
-      {
-        "id": "MIGHTY_STRIKE_PLUS",
-        "name": "맹공+",
-        "probability": 0.015623
-      },
-      {
-        "id": "WARRIOR_ASSAULT_PLUS",
-        "name": "돌격+",
-        "probability": 0.015623
-      },
-      {
-        "id": "PENETRATION_PLUS",
-        "name": "관통+",
-        "probability": 0.015623
-      },
-      {
-        "id": "FALLING_FLOWERS_PLUS",
-        "name": "낙화+",
-        "probability": 0.015623
-      },
-      {
-        "id": "BLOOD_GALE_PLUS",
-        "name": "피바람+",
-        "probability": 0.004775
-      },
-      {
-        "id": "PRESSURE_PLUS",
-        "name": "압박+",
-        "probability": 0.004775
-      },
-      {
-        "id": "FIGHT_PLUS",
-        "name": "무희+",
-        "probability": 0.004775
-      },
-      {
-        "id": "FEROCITY_PLUS",
-        "name": "맹렬+",
-        "probability": 0.004775
-      },
-      {
-        "id": "ROTATION_PLUS",
-        "name": "회전+",
-        "probability": 0.004775
-      },
-      {
-        "id": "ANGER_PLUS",
-        "name": "분노+",
-        "probability": 0.004775
-      },
-      {
-        "id": "DETERMINATION_GS_PLUS",
-        "name": "회심+",
-        "probability": 0.004775
-      },
-      {
-        "id": "CUT_PLUS",
-        "name": "절단+",
-        "probability": 0.004775
-      },
-      {
-        "id": "COUNTERATTACK_PLUS",
-        "name": "반격+",
-        "probability": 0.015623
-      },
-      {
-        "id": "RESILIENCE_PLUS",
-        "name": "탄력+",
-        "probability": 0.015623
-      },
-      {
-        "id": "CHARGE_ARCHER_PLUS",
-        "name": "몰아침+",
-        "probability": 0.004775
-      },
-      {
-        "id": "AGILITY_PLUS",
-        "name": "날렵함+",
-        "probability": 0.004775
-      },
-      {
-        "id": "ESCAPE_PLUS",
-        "name": "탈출+",
-        "probability": 0.004775
-      },
-      {
-        "id": "QUICK_PLUS",
-        "name": "재빠른+",
-        "probability": 0.004775
-      },
-      {
-        "id": "FATAL_PLUS",
-        "name": "치명적+",
-        "probability": 0.015623
-      },
-      {
-        "id": "EAGLE_PLUS",
-        "name": "매+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ELECTROCUTION_PLUS",
-        "name": "감전+",
-        "probability": 0.004775
-      },
-      {
-        "id": "DISTURBANCE_PLUS",
-        "name": "방해+",
-        "probability": 0.004775
-      },
-      {
-        "id": "CURRENT_PLUS",
-        "name": "전류+",
-        "probability": 0.004775
-      },
-      {
-        "id": "REVERSAL_PLUS",
-        "name": "반전+",
-        "probability": 0.004775
-      },
-      {
-        "id": "GUNPOWDER_PLUS",
-        "name": "화약+",
-        "probability": 0.015623
-      },
-      {
-        "id": "CHAIN_PLUS",
-        "name": "연쇄+",
-        "probability": 0.015623
-      },
-      {
-        "id": "CRUSH_PLUS",
-        "name": "파쇄+",
-        "probability": 0.004775
-      },
-      {
-        "id": "TENACITY_PLUS",
-        "name": "끈질김+",
-        "probability": 0.004775
-      },
-      {
-        "id": "COLLAPSE_PLUS",
-        "name": "무너짐+",
-        "probability": 0.004775
-      },
-      {
-        "id": "INJURY_PLUS",
-        "name": "내상+",
-        "probability": 0.004775
-      },
-      {
-        "id": "ULTRASONIC_PLUS",
-        "name": "초음파+",
-        "probability": 0.015623
-      },
-      {
-        "id": "CONCENTRATION_PLUS",
-        "name": "집중+",
-        "probability": 0.015623
-      },
-      {
-        "id": "THUNDER_PLUS",
-        "name": "낙뢰+",
-        "probability": 0.004775
-      },
-      {
-        "id": "LANDSLIDE_PLUS",
-        "name": "산사태+",
-        "probability": 0.004775
-      },
-      {
-        "id": "FLASHING_PLUS",
-        "name": "깜빡임+",
-        "probability": 0.004775
-      },
-      {
-        "id": "AMPLIFICATION_PLUS",
-        "name": "증폭+",
-        "probability": 0.004775
-      },
-      {
-        "id": "METEOR_PLUS",
-        "name": "운석+",
-        "probability": 0.015623
-      },
-      {
-        "id": "FROST_THORN_PLUS",
-        "name": "서리가시+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ARCTIC_WIND_PLUS",
-        "name": "북풍+",
-        "probability": 0.004775
-      },
-      {
-        "id": "FROST_PLUS",
-        "name": "고드름+",
-        "probability": 0.004775
-      },
-      {
-        "id": "WINTER_PLUS",
-        "name": "겨울+",
-        "probability": 0.004775
-      },
-      {
-        "id": "FRAGMENT_PLUS",
-        "name": "파편+",
-        "probability": 0.004775
-      },
-      {
-        "id": "ICE_SWORD_PLUS",
-        "name": "빙검+",
-        "probability": 0.015623
-      },
-      {
-        "id": "AURORA_PLUS",
-        "name": "오로라+",
-        "probability": 0.015623
-      },
-      {
-        "id": "VOLCANO_PLUS",
-        "name": "불기둥+",
-        "probability": 0.004775
-      },
-      {
-        "id": "FIREPOWER_PLUS",
-        "name": "화력+",
-        "probability": 0.004775
-      },
-      {
-        "id": "ERUPTION_PLUS",
-        "name": "분출+",
-        "probability": 0.004775
-      },
-      {
-        "id": "HEATWAVE_PLUS",
-        "name": "열풍+",
-        "probability": 0.004775
-      },
-      {
-        "id": "EMBERS_PLUS",
-        "name": "불씨+",
-        "probability": 0.015623
-      },
-      {
-        "id": "ASHES_PLUS",
-        "name": "잿더미+",
-        "probability": 0.015623
-      },
-      {
-        "id": "VOW_PLUS",
-        "name": "서약+",
-        "probability": 0.004775
-      },
-      {
-        "id": "TREMOR_PLUS",
-        "name": "고동침+",
-        "probability": 0.004775
-      },
-      {
-        "id": "ENCLOSURE_PLUS",
-        "name": "감쌈+",
-        "probability": 0.004775
-      },
-      {
-        "id": "WAVE_PLUS",
-        "name": "물결+",
-        "probability": 0.004775
-      },
-      {
-        "id": "SUPPRESSION_PLUS",
-        "name": "억압+",
-        "probability": 0.015623
-      },
-      {
-        "id": "GLARE_PLUS",
-        "name": "빛무리+",
-        "probability": 0.015623
-      },
-      {
-        "id": "BOND_PLUS",
-        "name": "결속+",
-        "probability": 0.004775
-      },
-      {
-        "id": "CARTWHEEL_PLUS",
-        "name": "수레바퀴+",
-        "probability": 0.004775
-      },
-      {
-        "id": "SACRIFICE_PLUS",
-        "name": "희생+",
-        "probability": 0.004775
-      },
-      {
-        "id": "HOLY_WAR_PLUS",
-        "name": "성전+",
-        "probability": 0.004775
-      },
-      {
-        "id": "WINGS_PLUS",
-        "name": "날개+",
-        "probability": 0.015623
-      },
-      {
-        "id": "RAY_OF_LIGHT_PLUS",
-        "name": "빛줄기+",
-        "probability": 0.015623
-      },
-      {
-        "id": "KARMA_PLUS",
-        "name": "인과+",
-        "probability": 0.004775
-      },
-      {
-        "id": "PURIFICATION_PLUS",
-        "name": "정화+",
-        "probability": 0.004775
-      },
-      {
-        "id": "RADIANCE_PLUS",
-        "name": "광휘+",
-        "probability": 0.004775
-      },
-      {
-        "id": "CONSECRATION_PLUS",
-        "name": "축성+",
-        "probability": 0.004775
-      },
-      {
-        "id": "RETRIBUTION_PLUS",
-        "name": "응보+",
-        "probability": 0.015623
-      },
-      {
-        "id": "FLAME_UP_PLUS",
-        "name": "업화+",
-        "probability": 0.015623
-      },
-      {
-        "id": "BARD_ASSAULT_PLUS",
-        "name": "급습+",
-        "probability": 0.004775
-      },
-      {
-        "id": "IMPROMPTU_PLUS",
-        "name": "즉흥+",
-        "probability": 0.004775
-      },
-      {
-        "id": "DECEPTION_PLUS",
-        "name": "기만+",
-        "probability": 0.004775
-      },
-      {
-        "id": "WIT_PLUS",
-        "name": "재치+",
-        "probability": 0.004775
-      },
-      {
-        "id": "MOCKERY_PLUS",
-        "name": "조롱+",
-        "probability": 0.015623
-      },
-      {
-        "id": "HARMONY_PLUS",
-        "name": "화음+",
-        "probability": 0.015623
-      },
-      {
-        "id": "RESONANCE_PLUS",
-        "name": "공명+",
-        "probability": 0.004775
-      },
-      {
-        "id": "AFFECTION_PLUS",
-        "name": "박애+",
-        "probability": 0.004775
-      },
-      {
-        "id": "DOUBLE_NOTE_PLUS",
-        "name": "이중주+",
-        "probability": 0.004775
-      },
-      {
-        "id": "PULSE_PLUS",
-        "name": "속주+",
-        "probability": 0.004775
-      },
-      {
-        "id": "PASSION_PLUS",
-        "name": "정열+",
-        "probability": 0.004775
-      },
-      {
-        "id": "APPROACH_PLUS",
-        "name": "다가옴+",
-        "probability": 0.004775
-      },
-      {
-        "id": "FRESHNESS_PLUS",
-        "name": "산뜻함+",
-        "probability": 0.004775
-      },
-      {
-        "id": "CONCISENESS_PLUS",
-        "name": "간결함+",
-        "probability": 0.004775
-      },
-      {
-        "id": "THROWING_PLUS",
-        "name": "투척+",
-        "probability": 0.004775
-      },
-      {
-        "id": "SLYNESS_PLUS",
-        "name": "교활함+",
-        "probability": 0.004775
-      },
-      {
-        "id": "INGENUITY_PLUS",
-        "name": "치밀함+",
-        "probability": 0.004775
-      },
-      {
-        "id": "TOXICITY_PLUS",
-        "name": "독성+",
-        "probability": 0.004775
-      },
-      {
-        "id": "LEAP_PLUS",
-        "name": "도약+",
-        "probability": 0.004775
-      },
-      {
-        "id": "AGILITY_FIGHTER_PLUS",
-        "name": "순발력+",
-        "probability": 0.004775
-      },
-      {
-        "id": "PASSION_FIGHTER_PLUS",
-        "name": "열혈+",
-        "probability": 0.004775
-      },
-      {
-        "id": "ADVANCE_PLUS",
-        "name": "전진+",
-        "probability": 0.004775
-      },
-      {
-        "id": "COLLISION_PLUS",
-        "name": "충돌+",
-        "probability": 0.004775
-      },
-      {
-        "id": "DEFEAT_PLUS",
-        "name": "격파+",
-        "probability": 0.004775
-      },
-      {
-        "id": "BURN_PLUS",
-        "name": "열상+",
-        "probability": 0.004775
-      },
-      {
-        "id": "FULL_MOON_PLUS",
-        "name": "보름달+",
-        "probability": 0.004775
-      },
-      {
-        "id": "EXPEDITIOUS_PLUS",
-        "name": "속행+",
-        "probability": 0.004775
-      },
-      {
-        "id": "REINFORCEMENT_PLUS",
-        "name": "강화+",
-        "probability": 0.004775
-      },
-      {
-        "id": "WHIRL_PLUS",
-        "name": "회오리+",
-        "probability": 0.004775
-      },
-      {
-        "id": "SPRINT_PLUS",
-        "name": "질주+",
-        "probability": 0.004775
-      }
+  {
+    "id": "CRUEL_WINTER",
+    "name": "냉혹한 겨울",
+    "probability": 0.015623
+  },
+  {
+    "id": "COUNTLESS_FERMENTATIONS",
+    "name": "무수한 담금질",
+    "probability": 0.015623
+  },
+  {
+    "id": "LIVING_WILDFIRE",
+    "name": "살아있는 번갯불",
+    "probability": 0.015623
+  },
+  {
+    "id": "THORN_VINES",
+    "name": "가시 덩굴",
+    "probability": 0.015623
+  },
+  {
+    "id": "BURNING_EMBER",
+    "name": "타오르는 불씨",
+    "probability": 0.015623
+  },
+  {
+    "id": "RISING_MIST",
+    "name": "차오르는 안개",
+    "probability": 0.015623
+  },
+  {
+    "id": "RAGING_WIND",
+    "name": "몰아치는 바람",
+    "probability": 0.015623
+  },
+  {
+    "id": "THOUSAND_FOLD_SWORD",
+    "name": "천 자루 검",
+    "probability": 0.015623
+  },
+  {
+    "id": "ANCIENT_GLADIATOR",
+    "name": "옛 검투사",
+    "probability": 0.015623
+  },
+  {
+    "id": "HARMONY",
+    "name": "조화",
+    "probability": 0.004775
+  },
+  {
+    "id": "LIGHT_AND_SHADOW",
+    "name": "명암",
+    "probability": 0.004775
+  },
+  {
+    "id": "SUFFERING",
+    "name": "고뇌",
+    "probability": 0.004775
+  },
+  {
+    "id": "ENHANCED_DUEL",
+    "name": "결투+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_WHIRLWIND",
+    "name": "질풍+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_WONDER",
+    "name": "경이+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_CLASH",
+    "name": "격전+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_PLAGUE",
+    "name": "역병+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_RAGE",
+    "name": "격노+",
+    "probability": 0.015623
+  },
+  {
+    "id": "RUPTURE",
+    "name": "파열",
+    "probability": 0.004775
+  },
+  {
+    "id": "BLIND_FURY",
+    "name": "눈 먼 분노",
+    "probability": 0.015623
+  },
+  {
+    "id": "SOUL_HARVESTER",
+    "name": "영혼 수확자",
+    "probability": 0.015623
+  },
+  {
+    "id": "FROZEN_FLAMES",
+    "name": "얼어붙은 불꽃",
+    "probability": 0.015623
+  },
+  {
+    "id": "BLADE_BASTION",
+    "name": "칼날 보루",
+    "probability": 0.015623
+  },
+  {
+    "id": "CONDENSED_MAGIC",
+    "name": "응축된 마력",
+    "probability": 0.015623
+  },
+  {
+    "id": "SILENT_WIND",
+    "name": "고요한 바람",
+    "probability": 0.015623
+  },
+  {
+    "id": "HOLY_LAMB",
+    "name": "신셩한 수양",
+    "probability": 0.015623
+  },
+  {
+    "id": "THRILLING_BALLAD",
+    "name": "전율하는 악상",
+    "probability": 0.015623
+  },
+  {
+    "id": "RUTHLESS_GAMBLER",
+    "name": "비정한 승부사",
+    "probability": 0.015623
+  },
+  {
+    "id": "FIERCE_DOWNPOUR",
+    "name": "거센 소나기",
+    "probability": 0.015623
+  },
+  {
+    "id": "CRIMSON_PLEDGE",
+    "name": "붉은 맹약",
+    "probability": 0.015623
+  },
+  {
+    "id": "BLACK_VOW",
+    "name": "검은 서약",
+    "probability": 0.015623
+  },
+  {
+    "id": "SURVIVAL_INSTINCT",
+    "name": "생존 본능",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENDLESS_VITALITY",
+    "name": "끝없는 활력",
+    "probability": 0.015623
+  },
+  {
+    "id": "ELEMENTAL_SORCERER",
+    "name": "원소술사",
+    "probability": 0.004775
+  },
+  {
+    "id": "EXTREME_NIGHT",
+    "name": "극야",
+    "probability": 0.004775
+  },
+  {
+    "id": "ENLIGHTENMENT",
+    "name": "깨달음",
+    "probability": 0.004775
+  },
+  {
+    "id": "TORCH",
+    "name": "횃불",
+    "probability": 0.004775
+  },
+  {
+    "id": "SHATTER",
+    "name": "쇄빙",
+    "probability": 0.004775
+  },
+  {
+    "id": "COUNTERACTION",
+    "name": "반작용",
+    "probability": 0.004775
+  },
+  {
+    "id": "ENHANCED_STORM",
+    "name": "폭풍+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_BLOODSUCKING",
+    "name": "흡혈+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_SACRIFICE",
+    "name": "제물+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_EROSION",
+    "name": "침식+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_FREEZING",
+    "name": "얼어붙음+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_AGONY",
+    "name": "격통+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_WEAKNESS",
+    "name": "쇠약+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_STABILITY",
+    "name": "안정+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_SNIPE",
+    "name": "저격+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_PROTECTION",
+    "name": "방호+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_INITIAL",
+    "name": "초기+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_SUPERNATURAL",
+    "name": "초자연+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_LIFE",
+    "name": "생명+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_CASTLE",
+    "name": "성채+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_MELEE",
+    "name": "난투+",
+    "probability": 0.015623
+  },
+  {
+    "id": "BLACK_FLAMES",
+    "name": "검은 불길",
+    "probability": 0.015623
+  },
+  {
+    "id": "MANA_SURGE",
+    "name": "마나 격류",
+    "probability": 0.015623
+  },
+  {
+    "id": "WINNING_STREAK",
+    "name": "연승",
+    "probability": 0.004775
+  },
+  {
+    "id": "OVERCHARGE",
+    "name": "과충전",
+    "probability": 0.004775
+  },
+  {
+    "id": "TOXIC_MIST",
+    "name": "독 안개",
+    "probability": 0.015623
+  },
+  {
+    "id": "ROCK_GIANT",
+    "name": "바위 거인",
+    "probability": 0.015623
+  },
+  {
+    "id": "VICIOUS_BLOW",
+    "name": "비열한 일격",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_TENACITY",
+    "name": "굳건함+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_SWIFTNESS",
+    "name": "날쌤+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_INTENSITY",
+    "name": "강렬함+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ENHANCED_FEROCITY",
+    "name": "광폭함+",
+    "probability": 0.015623
+  },
+  {
+    "id": "BRILLIANCE",
+    "name": "현란함",
+    "probability": 0.004775
+  },
+  {
+    "id": "WISDOM",
+    "name": "지혜로움",
+    "probability": 0.004775
+  },
+  {
+    "id": "CRUELTY",
+    "name": "냉혹함",
+    "probability": 0.004775
+  },
+  {
+    "id": "CHARGE_PLUS",
+    "name": "참격+",
+    "probability": 0.004775
+  },
+  {
+    "id": "RUSH_PLUS",
+    "name": "돌진+",
+    "probability": 0.004775
+  },
+  {
+    "id": "ROAR_PLUS",
+    "name": "포효+",
+    "probability": 0.004775
+  },
+  {
+    "id": "DETERMINATION_PLUS",
+    "name": "패기+",
+    "probability": 0.004775
+  },
+  {
+    "id": "MIGHTY_STRIKE_PLUS",
+    "name": "맹공+",
+    "probability": 0.015623
+  },
+  {
+    "id": "WARRIOR_ASSAULT_PLUS",
+    "name": "돌격+",
+    "probability": 0.015623
+  },
+  {
+    "id": "PENETRATION_PLUS",
+    "name": "관통+",
+    "probability": 0.015623
+  },
+  {
+    "id": "FALLING_FLOWERS_PLUS",
+    "name": "낙화+",
+    "probability": 0.015623
+  },
+  {
+    "id": "BLOOD_GALE_PLUS",
+    "name": "피바람+",
+    "probability": 0.004775
+  },
+  {
+    "id": "PRESSURE_PLUS",
+    "name": "압박+",
+    "probability": 0.004775
+  },
+  {
+    "id": "FIGHT_PLUS",
+    "name": "무희+",
+    "probability": 0.004775
+  },
+  {
+    "id": "FEROCITY_PLUS",
+    "name": "맹렬+",
+    "probability": 0.004775
+  },
+  {
+    "id": "ROTATION_PLUS",
+    "name": "회전+",
+    "probability": 0.004775
+  },
+  {
+    "id": "ANGER_PLUS",
+    "name": "분노+",
+    "probability": 0.004775
+  },
+  {
+    "id": "DETERMINATION_GS_PLUS",
+    "name": "회심+",
+    "probability": 0.004775
+  },
+  {
+    "id": "CUT_PLUS",
+    "name": "절단+",
+    "probability": 0.004775
+  },
+  {
+    "id": "COUNTERATTACK_PLUS",
+    "name": "반격+",
+    "probability": 0.015623
+  },
+  {
+    "id": "RESILIENCE_PLUS",
+    "name": "탄력+",
+    "probability": 0.015623
+  },
+  {
+    "id": "CHARGE_ARCHER_PLUS",
+    "name": "몰아침+",
+    "probability": 0.004775
+  },
+  {
+    "id": "AGILITY_PLUS",
+    "name": "날렵함+",
+    "probability": 0.004775
+  },
+  {
+    "id": "ESCAPE_PLUS",
+    "name": "탈출+",
+    "probability": 0.004775
+  },
+  {
+    "id": "QUICK_PLUS",
+    "name": "재빠른+",
+    "probability": 0.004775
+  },
+  {
+    "id": "FATAL_PLUS",
+    "name": "치명적+",
+    "probability": 0.015623
+  },
+  {
+    "id": "EAGLE_PLUS",
+    "name": "매+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ELECTROCUTION_PLUS",
+    "name": "감전+",
+    "probability": 0.004775
+  },
+  {
+    "id": "DISTURBANCE_PLUS",
+    "name": "방해+",
+    "probability": 0.004775
+  },
+  {
+    "id": "CURRENT_PLUS",
+    "name": "전류+",
+    "probability": 0.004775
+  },
+  {
+    "id": "REVERSAL_PLUS",
+    "name": "반전+",
+    "probability": 0.004775
+  },
+  {
+    "id": "GUNPOWDER_PLUS",
+    "name": "화약+",
+    "probability": 0.015623
+  },
+  {
+    "id": "CHAIN_PLUS",
+    "name": "연쇄+",
+    "probability": 0.015623
+  },
+  {
+    "id": "CRUSH_PLUS",
+    "name": "파쇄+",
+    "probability": 0.004775
+  },
+  {
+    "id": "TENACITY_PLUS",
+    "name": "끈질김+",
+    "probability": 0.004775
+  },
+  {
+    "id": "COLLAPSE_PLUS",
+    "name": "무너짐+",
+    "probability": 0.004775
+  },
+  {
+    "id": "INJURY_PLUS",
+    "name": "내상+",
+    "probability": 0.004775
+  },
+  {
+    "id": "ULTRASONIC_PLUS",
+    "name": "초음파+",
+    "probability": 0.015623
+  },
+  {
+    "id": "CONCENTRATION_PLUS",
+    "name": "집중+",
+    "probability": 0.015623
+  },
+  {
+    "id": "THUNDER_PLUS",
+    "name": "낙뢰+",
+    "probability": 0.004775
+  },
+  {
+    "id": "LANDSLIDE_PLUS",
+    "name": "산사태+",
+    "probability": 0.004775
+  },
+  {
+    "id": "FLASHING_PLUS",
+    "name": "깜빡임+",
+    "probability": 0.004775
+  },
+  {
+    "id": "AMPLIFICATION_PLUS",
+    "name": "증폭+",
+    "probability": 0.004775
+  },
+  {
+    "id": "METEOR_PLUS",
+    "name": "운석+",
+    "probability": 0.015623
+  },
+  {
+    "id": "FROST_THORN_PLUS",
+    "name": "서리가시+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ARCTIC_WIND_PLUS",
+    "name": "북풍+",
+    "probability": 0.004775
+  },
+  {
+    "id": "FROST_PLUS",
+    "name": "고드름+",
+    "probability": 0.004775
+  },
+  {
+    "id": "WINTER_PLUS",
+    "name": "겨울+",
+    "probability": 0.004775
+  },
+  {
+    "id": "FRAGMENT_PLUS",
+    "name": "파편+",
+    "probability": 0.004775
+  },
+  {
+    "id": "ICE_SWORD_PLUS",
+    "name": "빙검+",
+    "probability": 0.015623
+  },
+  {
+    "id": "AURORA_PLUS",
+    "name": "오로라+",
+    "probability": 0.015623
+  },
+  {
+    "id": "VOLCANO_PLUS",
+    "name": "불기둥+",
+    "probability": 0.004775
+  },
+  {
+    "id": "FIREPOWER_PLUS",
+    "name": "화력+",
+    "probability": 0.004775
+  },
+  {
+    "id": "ERUPTION_PLUS",
+    "name": "분출+",
+    "probability": 0.004775
+  },
+  {
+    "id": "HEATWAVE_PLUS",
+    "name": "열풍+",
+    "probability": 0.004775
+  },
+  {
+    "id": "EMBERS_PLUS",
+    "name": "불씨+",
+    "probability": 0.015623
+  },
+  {
+    "id": "ASHES_PLUS",
+    "name": "잿더미+",
+    "probability": 0.015623
+  },
+  {
+    "id": "VOW_PLUS",
+    "name": "서약+",
+    "probability": 0.004775
+  },
+  {
+    "id": "TREMOR_PLUS",
+    "name": "고동침+",
+    "probability": 0.004775
+  },
+  {
+    "id": "ENCLOSURE_PLUS",
+    "name": "감쌈+",
+    "probability": 0.004775
+  },
+  {
+    "id": "WAVE_PLUS",
+    "name": "물결+",
+    "probability": 0.004775
+  },
+  {
+    "id": "BUTTERFLY_PLUS",
+    "name": "나비+",
+    "probability": 0.015623
+  },
+  {
+    "id": "SWING_PLUS",
+    "name": "갈채+",
+    "probability": 0.015623
+  },
+  {
+    "id": "SUPPRESSION_PLUS",
+    "name": "억압+",
+    "probability": 0.015623
+  },
+  {
+    "id": "GLARE_PLUS",
+    "name": "빛무리+",
+    "probability": 0.015623
+  },
+  {
+    "id": "BOND_PLUS",
+    "name": "결속+",
+    "probability": 0.004775
+  },
+  {
+    "id": "CARTWHEEL_PLUS",
+    "name": "수레바퀴+",
+    "probability": 0.004775
+  },
+  {
+    "id": "SACRIFICE_PLUS",
+    "name": "희생+",
+    "probability": 0.004775
+  },
+  {
+    "id": "HOLY_WAR_PLUS",
+    "name": "성전+",
+    "probability": 0.004775
+  },
+  {
+    "id": "WINGS_PLUS",
+    "name": "날개+",
+    "probability": 0.015623
+  },
+  {
+    "id": "RAY_OF_LIGHT_PLUS",
+    "name": "빛줄기+",
+    "probability": 0.015623
+  },
+  {
+    "id": "KARMA_PLUS",
+    "name": "인과+",
+    "probability": 0.004775
+  },
+  {
+    "id": "PURIFICATION_PLUS",
+    "name": "정화+",
+    "probability": 0.004775
+  },
+  {
+    "id": "RADIANCE_PLUS",
+    "name": "광휘+",
+    "probability": 0.004775
+  },
+  {
+    "id": "CONSECRATION_PLUS",
+    "name": "축성+",
+    "probability": 0.004775
+  },
+  {
+    "id": "RETRIBUTION_PLUS",
+    "name": "응보+",
+    "probability": 0.015623
+  },
+  {
+    "id": "FLAME_UP_PLUS",
+    "name": "업화+",
+    "probability": 0.015623
+  },
+  {
+    "id": "BARD_ASSAULT_PLUS",
+    "name": "급습+",
+    "probability": 0.004775
+  },
+  {
+    "id": "IMPROMPTU_PLUS",
+    "name": "즉흥+",
+    "probability": 0.004775
+  },
+  {
+    "id": "DECEPTION_PLUS",
+    "name": "기만+",
+    "probability": 0.004775
+  },
+  {
+    "id": "WIT_PLUS",
+    "name": "재치+",
+    "probability": 0.004775
+  },
+  {
+    "id": "MOCKERY_PLUS",
+    "name": "조롱+",
+    "probability": 0.015623
+  },
+  {
+    "id": "HARMONY_PLUS",
+    "name": "화음+",
+    "probability": 0.015623
+  },
+  {
+    "id": "RESONANCE_PLUS",
+    "name": "공명+",
+    "probability": 0.004775
+  },
+  {
+    "id": "AFFECTION_PLUS",
+    "name": "박애+",
+    "probability": 0.004775
+  },
+  {
+    "id": "DOUBLE_NOTE_PLUS",
+    "name": "이중주+",
+    "probability": 0.004775
+  },
+  {
+    "id": "MENACE_PLUS",
+    "name": "흉성+",
+    "probability": 0.015623
+  },
+  {
+    "id": "FINALE_PLUS",
+    "name": "종장+",
+    "probability": 0.015623
+  },
+  {
+    "id": "PULSE_PLUS",
+    "name": "속주+",
+    "probability": 0.004775
+  },
+  {
+    "id": "PASSION_PLUS",
+    "name": "정열+",
+    "probability": 0.004775
+  },
+  {
+    "id": "APPROACH_PLUS",
+    "name": "다가옴+",
+    "probability": 0.004775
+  },
+  {
+    "id": "FRESHNESS_PLUS",
+    "name": "산뜻함+",
+    "probability": 0.004775
+  },
+  {
+    "id": "CONCISENESS_PLUS",
+    "name": "간결함+",
+    "probability": 0.004775
+  },
+  {
+    "id": "THROWING_PLUS",
+    "name": "투척+",
+    "probability": 0.004775
+  },
+  {
+    "id": "SLYNESS_PLUS",
+    "name": "교활함+",
+    "probability": 0.004775
+  },
+  {
+    "id": "INGENUITY_PLUS",
+    "name": "치밀함+",
+    "probability": 0.004775
+  },
+  {
+    "id": "TOXIC_DANCE_PLUS",
+    "name": "독무+",
+    "probability": 0.004775
+  },
+  {
+    "id": "GROUND_SPIDER_PLUS",
+    "name": "땅거미+",
+    "probability": 0.004775
+  },
+  {
+    "id": "TOXICITY_PLUS",
+    "name": "독성+",
+    "probability": 0.004775
+  },
+  {
+    "id": "LEAP_PLUS",
+    "name": "도약+",
+    "probability": 0.004775
+  },
+  {
+    "id": "AGILITY_FIGHTER_PLUS",
+    "name": "순발력+",
+    "probability": 0.004775
+  },
+  {
+    "id": "PASSION_FIGHTER_PLUS",
+    "name": "열혈+",
+    "probability": 0.004775
+  },
+  {
+    "id": "ADVANCE_PLUS",
+    "name": "전진+",
+    "probability": 0.004775
+  },
+  {
+    "id": "COLLISION_PLUS",
+    "name": "충돌+",
+    "probability": 0.004775
+  },
+  {
+    "id": "DEFEAT_PLUS",
+    "name": "격파+",
+    "probability": 0.004775
+  },
+  {
+    "id": "BURN_PLUS",
+    "name": "열상+",
+    "probability": 0.004775
+  },
+  {
+    "id": "FULL_MOON_PLUS",
+    "name": "보름달+",
+    "probability": 0.004775
+  },
+  {
+    "id": "EXPEDITIOUS_PLUS",
+    "name": "속행+",
+    "probability": 0.004775
+  },
+  {
+    "id": "REINFORCEMENT_PLUS",
+    "name": "강화+",
+    "probability": 0.004775
+  },
+  {
+    "id": "WHIRL_PLUS",
+    "name": "회오리+",
+    "probability": 0.004775
+  },
+  {
+    "id": "SPRINT_PLUS",
+    "name": "질주+",
+    "probability": 0.004775
+  }
 ]

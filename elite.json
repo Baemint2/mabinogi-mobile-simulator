@@ -460,16 +460,6 @@
         "probability": 0.166435
     },
     {
-        "id": "COLLISION",
-        "name": "충돌",
-        "probability": 0.166435
-    },
-    {
-        "id": "DEFEAT",
-        "name": "격파",
-        "probability": 0.166435
-    },
-    {
         "id": "BURN",
         "name": "열상",
         "probability": 0.166435
@@ -487,16 +477,6 @@
     {
         "id": "REINFORCEMENT",
         "name": "강화",
-        "probability": 0.166435
-    },
-    {
-        "id": "WHIRLWIND",
-        "name": "회오리",
-        "probability": 0.166435
-    },
-    {
-        "id": "CHARGE_DUAL",
-        "name": "질주",
         "probability": 0.166435
     },
     {
