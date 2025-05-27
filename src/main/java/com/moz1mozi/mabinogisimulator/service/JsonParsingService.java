@@ -19,7 +19,7 @@ public class JsonParsingService {
 
     private final ObjectMapper objectMapper;
     private static final String[] RUNE_FILES = {
-            "elite.json", "epic.json", "legendary.json", "fragments-rune.json"
+            "rune/elite.json", "rune/epic.json", "rune/legendary.json", "rune/fragments-rune.json"
     };
 
     public List<RuneItem> getRunes() throws IOException {

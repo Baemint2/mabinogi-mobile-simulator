@@ -14,7 +14,7 @@ import java.util.List;
 
 @Slf4j
 @SpringBootTest
-public class JsonTest {
+class JsonTest {
 
     @Autowired
     private ObjectMapper objectMapper;
@@ -23,15 +23,18 @@ public class JsonTest {
     @Test
     void test() throws IOException {
         // given
-        List<RuneItem> file = getFile("elite.json");
+        List<RuneItem> file = getFile("rune/elite.json");
         // when then
         file.forEach(runeItem -> log.info("{}", runeItem));
 
-        List<RuneItem> file1 = getFile("epic.json");
+        List<RuneItem> file1 = getFile("rune/epic.json");
         file1.forEach(runeItem -> log.info("{}", runeItem));
 
-        List<RuneItem> file2 = getFile("legendary.json");
+        List<RuneItem> file2 = getFile("rune/legendary.json");
         file2.forEach(runeItem -> log.info("{}", runeItem));
+
+        List<RuneItem> file3 = getFile("rune/fragments-rune.json");
+        file3.forEach(runeItem -> log.info("{}", runeItem));
 
     }
 
