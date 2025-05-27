@@ -101,18 +101,11 @@ public class DiscordListener extends ListenerAdapter {
             event.reply("이 버튼은 명령어를 실행한 사용자만 사용할 수 있습니다.").setEphemeral(true).queue();
             return;
         }
-        String buttonName = componentId.split("-")[0];
-        if (RuneType.isRuneTypeButtons(buttonName)) {
-            prepareRuneRarityButtons(event, buttonName, label, ownerId);
-        } else if (componentId.contains("-")) {
-            prepareCatalystConfirmButtons(event, componentId, ownerId);
-            return;
-        }
 
         if (isConfirmButton(componentId)) {
-
+            log.info("촉매제 사용여부");
             // 버튼 ID에서 정보 추출
-            String[] parts = componentId.split("_");
+            String[] parts = componentId.split("-");
             boolean useCatalyst = parts[0].equals("yes");
             String rarityStr = parts[1];
             String typeStr = parts[2];
@@ -141,6 +134,14 @@ public class DiscordListener extends ListenerAdapter {
                 handleCatalystFusionRetry(event, baseString, runeType, rarity);
 
             }
+            return;
+        }
+
+        String buttonName = componentId.split("-")[0];
+        if (RuneType.isRuneTypeButtons(buttonName)) {
+            prepareRuneRarityButtons(event, buttonName, label, ownerId);
+        } else if (componentId.contains("-")) {
+            prepareCatalystConfirmButtons(event, componentId, ownerId);
         }
     }
 
