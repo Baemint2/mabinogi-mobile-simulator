@@ -1,5 +1,6 @@
 package com.moz1mozi.mabinogisimulator;
 
+import com.moz1mozi.mabinogisimulator.rune.RuneItem;
 import com.moz1mozi.mabinogisimulator.rune.RuneRarity;
 import com.moz1mozi.mabinogisimulator.rune.RuneType;
 import com.moz1mozi.mabinogisimulator.service.JsonParsingService;
@@ -14,6 +15,9 @@ import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import net.dv8tion.jda.api.interactions.components.buttons.Button;
 import org.springframework.stereotype.Component;
 
+import java.io.IOException;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
@@ -52,6 +56,18 @@ public class DiscordListener extends ListenerAdapter {
         if (content.equals("합성")) {
             getRunFusionButtons(event, username);
         } else if (content.equals("항아리")) {
+            List<RuneItem> runes;
+            try {
+                runes = jsonParsingService.getRunes();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+
+            BigDecimal totalProbability = runes.stream()
+                    .map(runeItem -> BigDecimal.valueOf(runeItem.getProbability()))
+                    .reduce(BigDecimal.ZERO, BigDecimal::add)
+                    .setScale(0, RoundingMode.DOWN);
+
             event.getChannel().sendMessage("추가 예정입니다.").queue();
         }
     }
@@ -129,7 +145,7 @@ public class DiscordListener extends ListenerAdapter {
     }
 
     private static boolean isConfirmButton(String componentId) {
-        return componentId.startsWith("yes_") || componentId.startsWith("no_");
+        return componentId.startsWith("yes-") || componentId.startsWith("no-");
     }
 
     private void prepareRuneRarityButtons(ButtonInteractionEvent event, String buttonName, String label, String ownerId) {
@@ -154,8 +170,8 @@ public class DiscordListener extends ListenerAdapter {
         }
 
         // 정보를 버튼 ID에 포함시킴
-        Button yesButton = Button.success("yes_" + rarityStr + "_" + typeStr, "예");
-        Button noButton = Button.danger("no_" + rarityStr + "_" + typeStr, "아니오");
+        Button yesButton = Button.success("yes-" + rarityStr + "-" + typeStr, "예");
+        Button noButton = Button.danger("no-" + rarityStr + "-" + typeStr, "아니오");
 
         event.editMessage("촉매제를 사용하시겠습니까?")
                 .setActionRow(yesButton, noButton)

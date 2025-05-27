@@ -4,10 +4,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.moz1mozi.mabinogisimulator.rune.RuneItem;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,38 +18,29 @@ import java.util.List;
 public class JsonParsingService {
 
     private final ObjectMapper objectMapper;
+    private static final String[] RUNE_FILES = {
+            "elite.json", "epic.json", "legendary.json", "fragments-rune.json"
+    };
 
     public List<RuneItem> getRunes() throws IOException {
         List<RuneItem> allRunes = new ArrayList<>();
-        List<RuneItem> eliteRunes = getEliteRunes();
-        List<RuneItem> epicRunes = getEpicRunes();
-        List<RuneItem> legendaryRunes = getLegendaryRunes();
-        List<RuneItem> fragmentsOfRune = getFragmentsOfRune();
-        allRunes.addAll(eliteRunes);
-        allRunes.addAll(epicRunes);
-        allRunes.addAll(legendaryRunes);
-        allRunes.addAll(fragmentsOfRune);
 
-        log.info("eliteRunes: {}", allRunes);
+        for (String fileName : RUNE_FILES) {
+            allRunes.addAll(getRunesFromFile(fileName));
+        }
+
+        log.info("allRunes: {}", allRunes);
         return allRunes;
     }
 
-    private List<RuneItem> getFragmentsOfRune() throws IOException {
-        return getFile("fragments.json");
-    }
-    private List<RuneItem> getEliteRunes() throws IOException {
-        return getFile("elite.json");
-    }
-    private List<RuneItem> getEpicRunes() throws IOException {
-        return getFile("epic.json");
-    }
-    private List<RuneItem> getLegendaryRunes() throws IOException {
-        return getFile("legendary.json");
+    private List<RuneItem> getRunesFromFile(String fileName) throws IOException {
+        try (InputStream inputStream = new ClassPathResource(fileName).getInputStream()) {
+            return objectMapper.readValue(inputStream,
+                    objectMapper.getTypeFactory().constructCollectionType(List.class, RuneItem.class));
+        } catch (IOException e) {
+            log.error("Failed to load runes from {}: {}", fileName, e.getMessage());
+            throw e;
+        }
     }
 
-    private List<RuneItem> getFile(String fileName) throws IOException {
-        FileReader fileReader = new FileReader(fileName);
-        return objectMapper.readValue(fileReader,
-                objectMapper.getTypeFactory().constructCollectionType(List.class, RuneItem.class));
-    }
 }
